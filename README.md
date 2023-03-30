@@ -429,6 +429,8 @@ Use the `same terminal session` you ran the export of GNUPGHOME in when continui
 
 Generate a new key with GPG, selecting RSA (sign only) and the appropriate keysize, optionally specifying an expiry:
 
+( M1/2 devices - also copy gpg-agent.conf to the /Volumes/RAMDisk otherwise following error could occurr: `gpg: agent_genkey failed: No such file or directory`)
+
 ```
 gpg --full-generate-key
 
